@@ -1,10 +1,36 @@
 Changelog
 =========
 
-4.2.1 (unreleased)
+4.3.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+Breaking changes:
+
+- *add item here*
+
+New features:
+
+- *add item here*
+
+Bug fixes:
+
+- *add item here*
+
+
+4.3 (2017-07-31)
+----------------
+
+New:
+
+- Support Chameleon repeat syntax in templates.
+  Fixes `issue #36 <https://github.com/collective/i18ndude/issues/36>`_.
+  [maurits]
+
+- Moved ``plone.i18n`` dependency to a ``plone`` extra.
+  This is only used for getting language names in the ``list`` command.
+  We now fall back to using the language name that is in the ``po`` files.
+  Fixes `issue #44 <https://github.com/collective/i18ndude/issues/44>`_.
+  [maurits]
 
 
 4.2 (2017-06-21)
